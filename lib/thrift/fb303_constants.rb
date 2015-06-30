@@ -5,5 +5,5 @@
 #
 
 require 'thrift'
-require 'fb303_types'
+require_relative 'fb303_types'
 

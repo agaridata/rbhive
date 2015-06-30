@@ -5,8 +5,8 @@
 #
 
 require 'thrift'
-require 'facebook_service'
-require 'hive_metastore_types'
+require_relative 'facebook_service'
+require_relative 'hive_metastore_types'
 
 module ThriftHiveMetastore
   class Client < ::FacebookService::Client 
