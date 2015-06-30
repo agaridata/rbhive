@@ -5,9 +5,9 @@
 #
 
 require 'thrift'
-require 'fb303_types'
-require 'hive_metastore_types'
-require 'queryplan_types'
+require_relative 'fb303_types'
+require_relative 'hive_metastore_types'
+require_relative 'queryplan_types'
 
 
 module JobTrackerState

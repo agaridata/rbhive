@@ -5,5 +5,5 @@
 #
 
 require 'thrift'
-require 'megastruct_types'
+require_relative 'megastruct_types'
 

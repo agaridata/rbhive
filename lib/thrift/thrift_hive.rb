@@ -5,8 +5,8 @@
 #
 
 require 'thrift'
-require 'thrift_hive_metastore'
-require 'hive_service_types'
+require_relative 'thrift_hive_metastore'
+require_relative 'hive_service_types'
 
 module ThriftHive
   class Client < ::ThriftHiveMetastore::Client 

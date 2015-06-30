@@ -5,5 +5,5 @@
 #
 
 require 'thrift'
-require 'hive_service_types'
+require_relative 'hive_service_types'
 

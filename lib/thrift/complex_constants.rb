@@ -5,5 +5,5 @@
 #
 
 require 'thrift'
-require 'complex_types'
+require_relative 'complex_types'
 

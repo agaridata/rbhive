@@ -5,7 +5,7 @@
 #
 
 require 'thrift'
-require 'hive_metastore_types'
+require_relative 'hive_metastore_types'
 
 DDL_TIME = %q"transient_lastDdlTime"
 
