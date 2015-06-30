@@ -5,4 +5,5 @@
 #
 
 require 'thrift'
+require 'megastruct_types'
 

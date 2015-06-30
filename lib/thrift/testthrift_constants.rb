@@ -5,4 +5,5 @@
 #
 
 require 'thrift'
+require 'testthrift_types'
 
