@@ -5,5 +5,5 @@
 #
 
 require 'thrift'
-require 'queryplan_types'
+require_relative 'queryplan_types'
 

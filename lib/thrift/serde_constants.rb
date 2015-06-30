@@ -5,7 +5,7 @@
 #
 
 require 'thrift'
-require 'serde_types'
+require_relative 'serde_types'
 
 SERIALIZATION_LIB = %q"serialization.lib"
 
